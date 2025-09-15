@@ -9,9 +9,8 @@ const JourneyBoard = () => {
     <div
       className={`transition-all duration-300 ease-in-out ${
         open ? "w-[392px]" : "w-[132px]"
-      } bg-white shadow-lg h-[692px] rounded-br-[20px] rounded-bl-[20px] relative`}
+      } bg-white shadow-lg h-[692px] rounded-br-[20px] rounded-bl-[20px] relative z-50`}
     >
-      {/* Top Black Header */}
       <div
         className="bg-black text-white rounded-tr-[30px] flex items-center h-[50px] cursor-pointer"
         onClick={() => setOpen(!open)}
